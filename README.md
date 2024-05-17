@@ -16,6 +16,8 @@ Aplicatiile scrise cu Java difera. In urma compilarii, rezulta o aplicatie care 
 2. Functional -> procesarea datelor este aplicarea secventiala a unor transformari (functii)
 3. Orientat pe obiecte -> procesarea datelor se face in jurul obiectelor si a relatiilor intre acestea
 
+### Care sunt tipurile de date in Java?
+
 
 
 
