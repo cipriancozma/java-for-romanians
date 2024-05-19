@@ -31,3 +31,5 @@ double | Tip de date pentru numere reale                                        
 boolean | Tip de date pentru reprezentarea valorii de adevar (adevarat sau fals)                         | boolean created              |
 String | Tip de date pentru valori text                                                                 | String name                  | 
 
+### Care sunt principalele categorii de tipuri de obiecte?
+
