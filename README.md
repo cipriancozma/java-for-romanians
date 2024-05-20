@@ -33,3 +33,10 @@ String | Tip de date pentru valori text                                         
 
 ### Care sunt principalele categorii de tipuri de obiecte?
 
+1. Model -> folosit pentru a structura datele care urmeaza sa fie procesate, fie pentru a putea fi stocate, fie pentru a fi transferate catre altcineva.
+2. Service -> obiect care implementeaza logica de business care ajuta la transformarea datelor in modul asteptat de un utilizator
+3. Manager -> obiect care implementeaza parte din logica ce este folosita de mai multe obiecte din aplicatie
+4. Proxy -> obiect care faciliteaza comunicarea cu alta aplicatie
+5. Repository -> obiect care implementeaza operatii pentru lucrul cu o tabela dintr-o baza de date
+6. Controller -> obiect care faciliteaza accesul catre logica implementata de un serviciu.
+
