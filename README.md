@@ -68,3 +68,26 @@ Daca ne imaginam ca aplicatia pe care o dezvoltam ajuta la managementul unui dep
 
 ### Ce este un manager?
 
+Obiectele de tip manager au rolul de a implementa operatii ce sunt folosite de mai multe cazuri de utilizare pentru a facilita scrierea unui cod simplu ce nu presupune repetitia unor parti de logica.
+
+### Ce este un proxy?
+
+Obiectele proxy sunt obiecte responsabile cu trimiterea de mesaje catre alte aplicatii sau sisteme.
+
+### Ce este un repository?
+
+Obiectele repository sunt responsabile cu implementarea comunicarii cu aplicatia server ce asigura managementul unei baze de date.
+
+### Ce este un controller?
+
+Obiectele de tip controller au rolul de a oferi calea de acces catre logica implementata de servicii.
+
+### Tipuri de obiecte - Rezumat
+
+1. Obiectele model definesc structura datelor cu care aplicatia lucreaza.
+2. Obiectele proxy implementeaza comunicarea cu aplicatii si sisteme externe.
+3. Obiectele repository implementeaza operatiile de persistare  a datelor intr-o baza de date.
+4. Obiectele controller implementeaza accesul catre logica implementata de aplicatie.
+5. Obiectele serviciu implementeaza logica ce proceseaza datele conform asteptarilor utilizatorilor.
+6. Obiectele manager separa blocurile de cod folosite din mai multe locuri pentru a elimina duplicarea fragmentelor de cod sursa.
+
