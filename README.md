@@ -40,3 +40,31 @@ String | Tip de date pentru valori text                                         
 5. Repository -> obiect care implementeaza operatii pentru lucrul cu o tabela dintr-o baza de date
 6. Controller -> obiect care faciliteaza accesul catre logica implementata de un serviciu.
 
+### Ce este un model? 
+
+```
+public class Product {
+   private String name;
+   private BigDecimal price;
+   private String type;
+}
+```
+
+Clasa Product reprezinta definitia unui obiect model. Produsul are un nume, un pret si un tip.
+
+### Ce este un serviciu?
+
+Clasele de tip serviciu sunt cele in care definim cazurile de utilizare.
+
+Daca ne imaginam ca aplicatia pe care o dezvoltam ajuta la managementul unui depozit, atunci putem considera cumpararea unui produs ca fiind un caz de utilizare (reprezinta ceva ce utilizatorul ar face din aplicatie).
+
+```
+   public class PurchaseService {
+      public void purchaseProduct(Product p) {
+         // definitia metodei
+      }
+   }
+```
+
+### Ce este un manager?
+
