@@ -91,3 +91,8 @@ Obiectele de tip controller au rolul de a oferi calea de acces catre logica impl
 5. Obiectele serviciu implementeaza logica ce proceseaza datele conform asteptarilor utilizatorilor.
 6. Obiectele manager separa blocurile de cod folosite din mai multe locuri pentru a elimina duplicarea fragmentelor de cod sursa.
 
+### Abordarea cerintelor utilizatorilor
+
+1. Dezvoltarea in cascada (waterfall) - ce presupune intelegerea cerintelor ca pe o faza ce se intampla inainte de inceperea constructiei sistemului software.
+2. Dezvoltarea agile (agile) - presupune inceperea fazei de constructie a sistemului software imediat ce au fost intelese o parte din cerinte, dar nu neaparat toate.
+
